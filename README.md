@@ -55,7 +55,7 @@ The following changes are required
 #### 1. Add Task
 Implement the add task functionality which requires a form, the correponding action, and reducer functions. No backend is required for this app so keep the data in the app state for now.
 
-To get started, review the Todo module under views/Todo and add 
+To get started, review the Todo module under views/Todo 
 
 #### 2. Task List Component
 Add a list component to show added tasks
