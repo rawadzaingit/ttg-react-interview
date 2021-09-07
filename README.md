@@ -52,15 +52,15 @@ To get started please fork and clone the repository.
 ## Requirments
 
 The following changes are required
-####1. Add Task
+#### 1. Add Task
 Implement the add task functionality which requires a form, the correponding action, and reducer functions. No backend is required for this app so keep the data in the app state for now.
 
 To get started, review the Todo module under views/Todo and add 
 
-####2. Task List Component
+#### 2. Task List Component
 Add a list component to show added tasks
 
-####3. Styling the app
+#### 3. Styling the app
 Using your design intuitions, adjust the layout and styling of the app. You may use the theme and make broad changes to the color pallete
 
 You might have also noticed the logo in the header isn't showing. Investigate the issue and fix it.
