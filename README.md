@@ -71,6 +71,6 @@ Using your design intuitions, adjust the layout and styling of the app. You may 
 
 You might have also noticed the logo in the header isn't showing. Investigate the issue and fix it.
 
-#### 4. User TaskService
+#### 4. Use TaskService
 
 Using Task service to get list of tasks, add task and remove task
