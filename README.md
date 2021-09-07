@@ -58,7 +58,7 @@ Implement the add task functionality which requires a form, the correponding act
 To get started, review the Todo module under views/Todo 
 
 #### 2. Task List Component
-Add a list component to show added tasks
+Add a list component to show added tasks and add ability to delete a task
 
 #### 3. Styling the app
 Using your design intuitions, adjust the layout and styling of the app. You may use the theme and make broad changes to the color pallete
