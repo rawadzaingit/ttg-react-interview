@@ -3,8 +3,8 @@ import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import rootReducer from '../rootReducers';
 
-const Store = preLoadedState => {
-  const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const Store = (preLoadedState: any) => {
+  const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
   const store = createStore(
     rootReducer,
     preLoadedState,

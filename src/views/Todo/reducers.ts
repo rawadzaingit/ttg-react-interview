@@ -4,7 +4,7 @@ import { combineReducers } from 'redux';
 
 const defaultState = {};
 
-const todoReducer = (state = defaultState, action) => {
+const todoReducer = (state = defaultState, action: any) => {
   switch (action.type) {
     case TodoActionTypes.addTodo:
       return state;

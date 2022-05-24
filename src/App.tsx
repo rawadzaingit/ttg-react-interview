@@ -17,8 +17,8 @@ const useStyles = makeStyles(theme =>
   createStyles({
     root: {},
     logo: {
-      width: 120
-    }
+      width: 120,
+    },
   })
 );
 
@@ -35,7 +35,7 @@ const App = () => {
           <Box display="flex" flexDirection="column" minHeight="100vh">
             {/* Header Component can be added here*/}
             <Box display="flex" alignContent="center">
-              <img source={logo} className={classes.logo} alt="TabTabGo Logo" />
+              <img className={classes.logo} alt="TabTabGo Logo" />
             </Box>
             <Box display="flex" flex={1} justifyContent="center">
               <Switch>

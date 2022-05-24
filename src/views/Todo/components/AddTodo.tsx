@@ -8,15 +8,23 @@ const useStyles = makeStyles(theme =>
   })
 );
 
-const AddTodo = (onAddTask) => {
+type AddToDoProps = {
+  onAddTask?: (todo: string) => void;
+};
+
+const AddTodo = ({ onAddTask }: AddToDoProps) => {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <TextField id="addTaskInput" label="Title" variant="outlined" margin="dense" autoFocus={true} />
-      <Button variant="contained">
-        Add Task
-      </Button>
+      <TextField
+        id="addTaskInput"
+        label="Title"
+        variant="outlined"
+        margin="dense"
+        autoFocus={true}
+      />
+      <Button variant="contained">Add Task</Button>
     </div>
   );
 };

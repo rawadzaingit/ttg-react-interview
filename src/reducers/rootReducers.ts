@@ -6,7 +6,7 @@ const appReducers = combineReducers({
   todo: TodoReducer,
 });
 
-const rootReducers = (state, action) => {
+const rootReducers = (state: any, action: any) => {
   // Handle general reducers
   return appReducers(state, action);
 };

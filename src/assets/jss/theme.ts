@@ -134,16 +134,6 @@ const theme = createTheme({
         color: '#868686',
       },
     },
-    MuiPickersCalendarHeader: {
-      switchHeader: {
-        color: '#000',
-      },
-    },
-    MuiPickersDay: {
-      day: {
-        color: '#00000',
-      },
-    },
   },
 });
 
