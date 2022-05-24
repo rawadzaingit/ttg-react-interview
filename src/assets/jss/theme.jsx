@@ -1,10 +1,11 @@
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core';
+import { responsiveFontSizes } from '@material-ui/core';
+import { createTheme } from '@material-ui/core/styles'
 
 import { grey } from '@material-ui/core/colors';
 
 const primary = '#ea26c2';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: 'Lato',
   },
