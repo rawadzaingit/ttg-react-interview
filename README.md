@@ -39,7 +39,7 @@ The app was setup using [Create React App](https://facebook.github.io/create-rea
 
 The app relies on the following main packages / frameworks
 
-- [Material-UI](https://material-ui.com/) – The main UI library with the default CSS-in-JSS styling solution.
+- [Material-UI](https://material-ui.com/) – The main UI library with the default CSS-in-JSS styling solution. Keep in mind that the current version in use is version **4** and not **5**. 
 - [Redux](https://redux.js.org/) – For state management along with [Redux Thunk](https://redux.js.org/usage/writing-logic-thunks) as the middleware.
 - [Formik](https://formik.org/) – For handling forms and [Yup](https://github.com/jquense/yup) for schema validation.
 - [Axios](https://axios-http.com/) – The HTTP client library
