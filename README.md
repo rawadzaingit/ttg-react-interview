@@ -74,3 +74,7 @@ You might have also noticed the logo in the header isn't showing. Investigate th
 #### 4. Use TaskService
 
 Using Task service to get list of tasks, add task and remove task
+
+#### 5. Use Zustand instead of  Redux (option)
+
+The application is build using Redux. Can you replace redux state managment to use [Zustand](https://github.com/pmndrs/zustand)
